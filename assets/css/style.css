@@ -1,0 +1,89 @@
+body{
+    font-family: raleway;
+    background-color: black;
+    color: white;
+
+}
+header{
+    height: 4.5625em;
+}
+header h1{
+    text-align: center;
+    line-height: 1.6em;
+    font-size: 3.125em;
+    margin: 0em;
+}
+
+.big_photo img{
+    height: 60em;
+    width: 100%;
+}
+
+.description{
+    align-items: center;
+    width: 100%;
+}
+.description p{
+    font-size: 1em;
+}
+.description_text{
+    width: 30%;
+    display: inline-block;
+    padding-left: 30em;
+    padding-top: 10em;
+    padding-bottom: 7em;
+}
+.img_right{
+    float: right;
+}
+.img_right img{
+    width: 35em;
+    padding-top: 4em;
+    padding-right: 5em;
+}
+
+.key_data{
+    background-color: #1E1A13;
+    text-align: center;
+    font-size: 1.5em;
+}
+.key_data i{
+    display: block;
+    padding: 2em;
+    padding-bottom: 0em;
+    padding-top: 0.5em;
+}
+.key_data h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+.tips{
+    display: inline-block;
+}
+.gallery{
+    padding: 50px 100px;
+}
+.photo{
+    display: inline-block;
+    width: 30%;
+    margin: 0.75%;
+    padding: 0.75%;
+}
+.photo img{
+    width: 100%;
+    min-height: 25em;
+    min-width: 35em;
+}
+footer{
+    text-align: center;
+    font-size: 1.25em;
+    background-color: #1E1A13;
+    height: 4em;
+    line-height: 4em;
+}
+footer a{
+    color:white;
+}
+footer a:hover{
+    color: green;
+}
